@@ -1,3 +1,5 @@
+// Lab 5 - tryIt5B.cpp
+// Mariano, Kenth Jarren S.
 #include <iostream>
 
 using namespace std;

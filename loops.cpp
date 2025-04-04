@@ -1,3 +1,5 @@
+// Lab 5 - loops.cpp
+// Mariano, Kenth Jarren S.
 #include <iostream>
 
 using namespace std;

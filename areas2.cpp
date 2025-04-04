@@ -1,4 +1,4 @@
-// Lab 4 areas.cpp
+// Lab 5 areas2.cpp
 // This program computes the area of a object of the users' choice
 // Mariano, Kenth Jarren S.
 #include <iostream>
@@ -11,7 +11,7 @@ int main() {
     int choice;
     double PI_VAL = 3.14159, side, base,
     height, radius, AREAsquare, AREAcircle, AREArtriangle;
-    do {
+    while (true) {
         // Simple user prompt of the choice
         cout << endl << right << setw(76) << "=====================================";
         cout << endl << right << setw(76) << "[WELCOME TO AREAS CALCULATOR PROGRAM]";
@@ -65,5 +65,5 @@ int main() {
                 cout << "\n[ERROR]" << endl; // Loops the error 3 times
             }  cout << "\n[An error has occured due to invalid input]" << endl; // Displays the error message
         }
-    } while (true);
+    }
 }

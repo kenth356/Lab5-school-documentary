@@ -21,7 +21,8 @@ int main() {
             cout << "\nWhat should n be in the final term (2 - 10)? ";
             cin >> n;
             cout << endl;
-        } sum = 0.0;
+        }
+        sum = 0.0;
         denom = 2;
         term = 1.0;
         for (int i = 1; i <= n; i++) {

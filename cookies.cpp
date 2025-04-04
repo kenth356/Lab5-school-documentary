@@ -19,6 +19,10 @@ int main() {
         numSeller++;
         cout << "\nEnter number of boxes of cookies sold by seller " << numSeller << " (or -1 to quit): ";
         cin >> numBoxes;
+        while (numBoxes < -1) {
+            cout << "\nEnter number of boxes of cookies sold by seller " << numSeller << " (or -1 to quit): ";
+            cin >> numBoxes;
+        }
     } numSeller--;
     if (numSeller == 0) {
         cout << "\nNo boxes were sold. \n";
@@ -26,4 +30,6 @@ int main() {
         averageBoxes = static_cast<double>(totalBoxes) / numSeller;
         cout << "\nThe average number of boxes sold  by the " << numSeller << " sellers was " << averageBoxes << ". " << endl;
     }
+
+    return 0;
 }
